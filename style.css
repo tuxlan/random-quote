@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #893b4b;
+}
+
+.container {
+  top: 10em;
+  position: relative;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border: 1px solid #893b4b;
+  border-radius: 5px;
+  background: white;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.quote-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.quote {
+  color: #893b4b;
+  margin-bottom: 5%;
+}
+
+.share {
+  position: relative;
+}
+
+cite {
+  color: #893b4b;
+  float: right;
+  margin-bottom: 10px;
+}
+
+button {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  background: #3b8979;
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid #3b8979;
+  margin: 10px;
+  float: right;
+  margin-bottom: 5%;
+}
